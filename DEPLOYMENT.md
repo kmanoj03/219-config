@@ -1,6 +1,6 @@
-# Deployment Guide for ConfigGuardian
+# Deployment Guide for SecureConfigs
 
-This guide covers deploying ConfigGuardian to production. The application consists of a React frontend (Vite) and an Express backend.
+This guide covers deploying SecureConfigs to production. The application consists of a React frontend (Vite) and an Express backend.
 
 ## Deployment Options
 

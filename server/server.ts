@@ -51,7 +51,7 @@ if (process.env.NODE_ENV === "production") {
 
 const port = Number(process.env.PORT || 4000);
 app.listen(port, () => {
-  console.log(`ConfigGuardian backend running at http://localhost:${port}`);
+  console.log(`SecureConfigs backend running at http://localhost:${port}`);
 });
 
 // test comment

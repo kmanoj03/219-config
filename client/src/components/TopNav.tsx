@@ -13,7 +13,7 @@ export function TopNav({ className }: TopNavProps) {
         <div className="flex h-16 items-center justify-between">
           <div className="flex items-center gap-2">
             <Shield className="h-8 w-8 text-primary" />
-            <h1 className="text-xl font-bold">ConfigGuardian</h1>
+            <h1 className="text-xl font-bold">SecureConfigs</h1>
           </div>
           
           <div className="flex items-center gap-2">

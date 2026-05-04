@@ -1,6 +1,6 @@
-# ConfigGuardian Client
+# SecureConfigs Client
 
-A clean, modern React UI for ConfigGuardian - AI-powered configuration security analysis.
+A clean, modern React UI for SecureConfigs - AI-powered configuration security analysis.
 
 ## Features
 
@@ -37,7 +37,7 @@ A clean, modern React UI for ConfigGuardian - AI-powered configuration security 
 
 ## Backend Integration
 
-The client is configured to proxy API requests to the backend running on `http://localhost:4000`. Make sure your ConfigGuardian backend is running before using the client.
+The client is configured to proxy API requests to the backend running on `http://localhost:4000`. Make sure your SecureConfigs backend is running before using the client.
 
 ## Project Structure
 
