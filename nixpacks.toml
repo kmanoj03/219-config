@@ -1,0 +1,23 @@
+# Railway uses Nixpacks for building
+# This configuration ensures proper build order for monorepo
+
+[phases.setup]
+nixPkgs = ["nodejs_20"]
+
+[phases.install]
+dependsOn = ["setup"]
+cmds = [
+  "cd server && npm ci",
+  "cd client && npm ci"
+]
+
+[phases.build]
+dependsOn = ["install"]
+cmds = [
+  "cd server && npm run build",
+  "cd client && npm run build"
+]
+
+[start]
+cmd = "cd server && NODE_ENV=production npm start"
+
